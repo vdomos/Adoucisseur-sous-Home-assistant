@@ -90,13 +90,13 @@ Le Wemos va apparaitre directement en tant que **device/appareil** dans la confi
 [![ha_device_adoucisseur](./images/thumb_ha_device_adoucisseur_0.png)](./images/ha_device_adoucisseur_0.png)
 <br>
 
-### Page Adoucisseur dans  **Configuration/Appareils**
+### Page "Adoucisseur" dans  **Configuration/Appareils**
 
 [![ha_device_adoucisseur](./images/thumb_ha_device_adoucisseur_1.png)](./images/ha_device_adoucisseur_1.png)
 
 <br>
 
-### Menu MQTT Info dans **Configuration/Appareils Adoucisseur**
+### Menu "MQTT Info" dans **Configuration/Appareils Adoucisseur**
 
 [![ha_device_adoucisseur](./images/thumb_ha_device_adoucisseur_2.png)](./images/ha_device_adoucisseur_2.png)
 
