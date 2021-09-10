@@ -17,7 +17,7 @@ Modèle **CR2J FMB 20** à commande mécanique
 
 [![Wemos D1 Mini](./images/thumb_wemos-d1-mini-esp-8266ex-4mb-flash.jpg)](./images/wemos-d1-mini-esp-8266ex-4mb-flash.jpg)
 
-[Wemos D1 Mini](esp8266.html#wemos-d1-mini), module à base d'**esp8266**
+**Wemos D1 Mini**, module à base d'**esp8266**
 
 <br>
 
@@ -25,7 +25,7 @@ Modèle **CR2J FMB 20** à commande mécanique
 
 [![Sharp GP2Y0A02YK0F](./images/thumb_Sharp-GP2Y0A02_1.png)](./images/Sharp-GP2Y0A02_1.png)
 
-Le [GP2Y0A02YK0F](module_GP2Y0A02#page_a_faire) de Sharp est un capteur de mesure de distance. 
+Le **GP2Y0A02YK0F** de Sharp est un capteur de mesure de distance. 
 Ce capteur affiche la tension correspondante à la détection de la distance. 
 
     Plage de mesure de distance de 20cm à 150cm
@@ -51,7 +51,7 @@ Elle doit etre protégée de la lumière ambiante.
 
 [![ADS1115](./images/thumb_ADS1115_ADC_Module_16b_4canaux_1.jpg)](./images/ADS1115_ADC_Module_16b_4canaux_1.jpg)
 
-[ADS1115](module_ADS1115.html), convertisseur ADC 16 bits, 4 canaux I2c
+**ADS1115**, convertisseur ADC 16 bits, 4 canaux I2c
 
 * **Sharp-GP2Y0A02** (Niveau sel) relié sur A0
 * **LDR** sur temoin rouge (Statut adoucisseur) reliée sur A1
