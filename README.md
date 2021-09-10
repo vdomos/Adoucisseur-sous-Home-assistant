@@ -1,7 +1,7 @@
 
 # Adoucisseur sous Home-assistant
 
-> Remontée état adoucisseur et niveau sel par MQTT
+> Remontée état adoucisseur et niveau sel par MQTT sous Home-assistant
 
 ## Adoucisseur
 
