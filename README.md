@@ -74,7 +74,6 @@ Le programmme sur le **Wemos** fonctionnera de cette façon:
 
 - Configuration Wifi
 - Configuration OTA (pour mise à jour par le Wifi)
-- Configuration Wifi
 - Configuration MQTT
 - Boucle principale qui va lire les 2 senseurs à intervalle régulier et les envoyer sur le bus MQTT
 
