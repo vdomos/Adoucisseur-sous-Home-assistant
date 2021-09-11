@@ -102,6 +102,12 @@ Le Wemos va apparaitre directement en tant que **Appareil (device)** dans la con
 
 <br>
 
+### Dashboard
+
+![ha_device_adoucisseur](./images/thumb_ha_device_adoucisseur_3.png)](./images/ha_device_adoucisseur_3.png)
+
+<br>
+
 ## Photos
 
 Montage en test sur l'adoucisseur
