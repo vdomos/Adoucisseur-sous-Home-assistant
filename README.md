@@ -26,7 +26,7 @@ Modèle **CR2J FMB 20** à commande mécanique
 [![Sharp GP2Y0A02YK0F](./images/thumb_Sharp-GP2Y0A02_1.png)](./images/Sharp-GP2Y0A02_1.png)
 
 Le **GP2Y0A02YK0F** de Sharp est un capteur de mesure de distance. 
-Ce capteur affiche la tension correspondante à la détection de la distance. 
+Ce capteur donne une tension proportionnelle à la distance mesurée
 
     Plage de mesure de distance de 20cm à 150cm
     Sortie analogique
@@ -42,7 +42,7 @@ Ce capteur permettra de mesurer la hauteur du bac à sel.
 
 [![LDR](./images/thumb_ldr-photoresistor.jpg)](./images/ldr-photoresistor.jpg)
 
-La **LDR** est placée devant le voyant rouge qui s'allume lors de la régénaration de la résine.
+La **LDR** est placée devant le voyant rouge qui s'allume lors de la régénération de la résine.
 Elle doit etre protégée de la lumière ambiante.
 
 <br>
@@ -76,18 +76,19 @@ Le programmme sur le **Wemos** fonctionnera de cette façon:
 - Configuration OTA (pour mise à jour par le Wifi)
 - Configuration Wifi
 - Configuration MQTT
-- Boucle principale qui va lire les 2 senseusrs à intervalle réguliers et les envoyer sur le bus MQTT
+- Boucle principale qui va lire les 2 senseurs à intervalle régulier et les envoyer sur le bus MQTT
 
 Le code Arduino utilise la fonctionnalité **MQTT discovery** pour intégrer automatiquement au boot du **Wemos D1 Mini** les 2 senseurs **Statut régénération** 
 et **Niveau sel** dans **Home-assistant**
 
-Le Wemos va apparaitre directement en tant que **device/appareil** dans la configuration **Home-assistant**
+Le Wemos va apparaitre directement en tant que **Appareil (device)** dans la configuration **Home-assistant**
 
 <br>
 
 ### Menu **Configuration/Appareils**
 
 [![ha_device_adoucisseur](./images/thumb_ha_device_adoucisseur_0.png)](./images/ha_device_adoucisseur_0.png)
+
 <br>
 
 ### Page "Adoucisseur" dans  **Configuration/Appareils**

@@ -21,7 +21,7 @@ const char* password = "xxxxxxxxxxxxxxxxxx";
 // Nom d'hôte OTA (pour mDNS)
 const char* otahostname = "wemosd1mini1";
 // mot de passe pour l'OTA
-const char* otapass = "123456";             // Code pour flasher
+const char* otapass = "123456";             // Password pour flasher
 // gestion du temps pour calcul de la durée de la MaJ
 unsigned long otamillis;
 
@@ -181,7 +181,7 @@ void mqttReconnect() {
     String clientId = "wemosd1mini1-";
     clientId += String(random(0xffff), HEX);
     // Attempt to connect
-    if (mqttClient.connect(clientId.c_str(), mqtt_user, mqtt_pwd) {     // https://github.com/Hackable-magazine/Hackable26/blob/master/espmqtt_auth/espmqtt_auth.ino
+    if (mqttClient.connect(clientId.c_str(), mqtt_user, mqtt_pwd)) {    // https://github.com/Hackable-magazine/Hackable26/blob/master/espmqtt_auth/espmqtt_auth.ino
       Serial.println("connected");
       mqttClient.publish(HATOPICCONFIG1, HAPAYLOADCONFIG1, true);       // avec retain
       delay(500);
