@@ -114,7 +114,7 @@ Le *senseur* **Dernière régénération** est généré à partir de l'intégra
   db_url: !secret recorder_db_url
   queries:
     - name: Dernière régénération
-      query: "SELECT DATE_FORMAT(last_updated,'%e/%m/%Y') as date, state  FROM states WHERE entity_id = 'binary_sensor.adoucisseur_regeneration' AND state='on' GROUP BY date ORDER BY last_updated DESC LIMIT 1;"
+      query: "SELECT DATE_FORMAT(last_updated,'%e/%m/%Y') as date, state  FROM states WHERE entity_id = 'binary_sensor.adoucisseur_regeneration' AND state='on' ORDER BY last_updated DESC LIMIT 1;"
       column: "date"
 ```
 
