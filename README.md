@@ -106,6 +106,19 @@ Le Wemos va apparaitre directement en tant que **Appareil (device)** dans la con
 
 [![ha_device_adoucisseur](./images/thumb_ha_device_adoucisseur_3.png)](./images/ha_device_adoucisseur_3.png)
 
+
+Le *senseur* **Dernière régénération** est généré à partir de l'intégratin [sql](https://www.home-assistant.io/integrations/sql/)
+
+```sql
+- platform: sql
+  db_url: !secret recorder_db_url
+  queries:
+    - name: Dernière régénération
+      query: "SELECT DATE_FORMAT(last_updated,'%e/%m/%Y') as date, state  FROM states WHERE entity_id = 'binary_sensor.adoucisseur_regeneration' AND state='on' GROUP BY date ORDER BY last_updated DESC LIMIT 1;"
+      column: "date"
+```
+
+
 <br>
 
 ## Photos
