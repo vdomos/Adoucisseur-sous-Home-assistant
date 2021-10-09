@@ -107,7 +107,7 @@ Le Wemos va apparaitre directement en tant que **Appareil (device)** dans la con
 [![ha_device_adoucisseur](./images/thumb_ha_device_adoucisseur_3.png)](./images/ha_device_adoucisseur_3.png)
 
 
-Le *senseur* **Dernière régénération** est généré à partir de l'intégratin [sql](https://www.home-assistant.io/integrations/sql/)
+Le *senseur* **Dernière régénération** est généré à partir de l'intégration [sql](https://www.home-assistant.io/integrations/sql/)
 
 ```sql
 - platform: sql
